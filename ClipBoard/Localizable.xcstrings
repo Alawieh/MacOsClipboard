@@ -1,0 +1,66 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "↩ Paste   ⌘1–9 Quick paste   ⌘P Pin   ⌘⌫ Delete   esc Close" : {
+
+    },
+    "Auto-paste is off: picked items are copied, press ⌘V to paste." : {
+
+    },
+    "Audio" : {
+
+    },
+    "Clear All" : {
+
+    },
+    "Clear History" : {
+
+    },
+    "Clipboard" : {
+
+    },
+    "Couldn’t change Launch at Login: %@" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Enable" : {
+
+    },
+    "Enable Auto-Paste…" : {
+
+    },
+    "Image" : {
+
+    },
+    "Launch at Login" : {
+
+    },
+    "No matches" : {
+
+    },
+    "Nothing copied yet. Copy something and it shows up here." : {
+
+    },
+    "Open Clipboard" : {
+
+    },
+    "Pin" : {
+
+    },
+    "Quit ClipBoard" : {
+
+    },
+    "Search" : {
+
+    },
+    "Unpin" : {
+
+    },
+    "Video" : {
+
+    }
+  },
+  "version" : "1.0"
+}

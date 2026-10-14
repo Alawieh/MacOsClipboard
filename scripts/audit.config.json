@@ -1,0 +1,10 @@
+{
+  "coverageFloor": 80,
+  "coverageLayers": ["Models", "Persistence", "Services", "ViewModels"],
+  "coverageExclusions": [
+    { "file": "Services/HotKeyService.swift", "reason": "Thin wrapper over Carbon RegisterEventHotKey; registering a real global hot key from tests would steal ⌘⇧V system-wide." },
+    { "file": "Services/LaunchAtLoginService.swift", "reason": "Thin wrapper over SMAppService; tests must not add login items. Logic is covered via FakeLaunchAtLogin in MenuBarViewModelTests." },
+    { "file": "Services/AccessibilityPermissionService.swift", "reason": "Thin wrapper over AXIsProcessTrusted; prompting shows a system dialog. Logic is covered via FakePermissions." },
+    { "file": "Services/ThumbnailService.swift", "reason": "Thin wrapper over QLThumbnailGenerator. Logic is covered via FakeThumbnails in ClipboardPanelViewModelTests." }
+  ]
+}

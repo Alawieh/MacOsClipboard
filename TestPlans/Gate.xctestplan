@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "6F1C2A10-0B7E-4C1D-9E21-3A5B7C9D0E11",
+      "name" : "Default",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:ClipBoard.xcodeproj",
+          "identifier" : "C1B0A0000000000000000030",
+          "name" : "ClipBoard"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ClipBoard.xcodeproj",
+        "identifier" : "C1B0A0000000000000000031",
+        "name" : "ClipBoardUnitTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,16 @@
+//
+//  Base.xcconfig
+//  ClipBoard
+//
+//  Signing defaults that work on any Mac with Xcode: "Sign to Run Locally" (ad-hoc), no Apple
+//  Developer account needed.
+//
+//  Optional: copy Local.xcconfig.example to Local.xcconfig (git-ignored) and put your own team in
+//  it. With a stable signature, macOS keeps ClipBoard's Accessibility permission across rebuilds.
+//
+
+CODE_SIGN_STYLE = Automatic
+CODE_SIGN_IDENTITY = -
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"
