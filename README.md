@@ -16,6 +16,10 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>
 </p>
 
+<p align="center">
+  <img src="docs/screenshot.png" width="381" alt="The ClipBoard panel showing recent copies: a link, a code snippet, images, text and a PDF file, with ⌘1–⌘7 quick-paste hints">
+</p>
+
 ---
 
 ## Why
